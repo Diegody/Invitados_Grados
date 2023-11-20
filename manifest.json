@@ -1,0 +1,23 @@
+{
+    "name": "Invitados Grados",
+    "short_name": "App",
+    "description": "App Web para los Graduandos de La Universidad De San Buenaventura - Bogotá",
+    "start_url": "/",
+    "display": "standalone", 
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "admin/assets/img/logoUSBbog.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "admin/assets/img/logoUSBbog.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
