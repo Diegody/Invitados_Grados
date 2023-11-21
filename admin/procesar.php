@@ -307,47 +307,49 @@ if (isset($_SESSION['id_usuario']) && isset($_SESSION['nombre_usuario']) && isse
                             </div>
                         </li>
                         <li>
-                            <a class="active-menu" href="index.php"><i class="fa fa-dashboard "></i>Inicio</a>
-                        </li>
-                        <li>
-                            <a href="panel-up.php"><i class="fa fa-plus "></i>Subir Graduandos</a>
+                            <a href="index.php"><i class="fa fa-globe"></i>Inicio</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-code"></i>Parámetros <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panel-fec.php"><i class="fa fa-edit "></i>Ceremonias</a>
+                                    <a href="panel-fec.php"><i class="fa fa-calendar-plus"></i>Ceremonias</a>
                                 </li>
                                 <li>
-                                    <a href="panel-cant.php"><i class="fa fa-toggle-on"></i>Cantidad Invitados</a>
+                                    <a href="panel-select-cant.php"><i class="fa fa-edit"></i>Cantidad Invitados</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-yelp"></i>Registrar<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-
-                                <li>
-                                    <a href="formG.php"><i class="fa fa-key "></i>Graduandos</a>
-                                </li>
-                                <li>
-                                    <a href="formU.php"><i class="fa fa-desktop "></i>Usuarios</a>
-                                </li>
-                            </ul>
+                            <a class="active-menu" href="panel-up.php"><i class="fa fa-circle-up"></i>Subir Graduandos</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-table"></i>Tablas<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-circle-plus"></i>Registrar<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panel-select.php"><i class="fa fa-sitemap"></i>Graduandos</span></a>
+                                    <a href="formG.php"><i class="fa fa-graduation-cap"></i>Graduandos</a>
                                 </li>
                                 <li>
-                                    <a href="panel-select-inv.php"><i class="fa fa-circle-o "></i>Invitados</a>
+                                    <a href="formU.php"><i class="fa fa-key"></i>Usuarios</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-cloud"></i>Instructivo (Próximamente)</a>
+                            <a href="#"><i class="fa fa-table-cells"></i>Tablas<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="panel-select.php"><i class="fa fa-user-graduate"></i>Graduandos</span></a>
+                                </li>
+                                <li>
+                                    <a href="panel-select-inv.php"><i class="fa fa-user-tie"></i>Invitados</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="qr.php"><i class="fa fa-qrcode"></i>Descargar QR</a>
+                        </li>
+                        <li>
+                            <a href="instructivo.php"><i class="fa fa-circle-info"></i>Instructivo</a>
                         </li>
                         <li>
                             <a href="../login.php"><i class="fa fa-sign-in"></i>Cerrar Sesión</a>
