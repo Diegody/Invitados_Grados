@@ -118,6 +118,7 @@ if (isset($_POST['enviar'])) {
                     Cordialmente,
                     <br>
                     <br>
+                    <span style='font-family: Tahoma,'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 12pt;'>
                     <!--     <table width='646' style='font-family: Tahoma,'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 10pt;'>
                     -->
                     <table style='font-family: Tahoma,'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 12pt;'>
